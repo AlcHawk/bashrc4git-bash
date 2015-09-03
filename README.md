@@ -1,9 +1,13 @@
-# bashrc/bash profile for git bash
-===
+# bash profile/bashrc for git bash
+
+
+
 
 ## PS1 git structure
+```bash
 (<branch> <branch tracking>|<local status>)
 ```
+
 - Local Status Symbols
   - ``✔``: repository clean
   - ``●n``: there are ``n`` staged files
