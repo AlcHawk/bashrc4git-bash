@@ -29,6 +29,7 @@ alias gtaddA='git add -A'
 alias gtctm='git commit -m'
 alias gtres='git reset'
 alias gtresH='git reset HEAD'
+alias gtpU='git push -u'
 alias gtlog='git log'
 GIT_PS1_SHOWDIRTYSTATE='yes'
 GIT_PS1_SHOWSTASHSTATE=true
