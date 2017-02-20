@@ -70,7 +70,7 @@ function _gt_lahead_ {  local isgitrepo=$(git status 2>&1 | grep 'Not a git repo
 
 function _gt_lbehind_ { local isgitrepo=$(git status 2>&1 | grep 'Not a git repository' | wc -l) 
                         if [ "$isgitrepo" -eq "0" ] && [ "$(git status | grep 'behind' | wc -l)" -eq "1" ] ; then  
-                            echo "↓"$(gtst | grep 'behind' | awk '{print $8}'); fi;}
+                            echo "↓"$(gtst | grep 'behind' | awk '{print $7}'); fi;}
 
 function _gt_bar_ { local isgitrepo=$(git status 2>&1 | grep 'Not a git repository' | wc -l) 
                     if [ "$isgitrepo" -eq "0" ] ; then  
